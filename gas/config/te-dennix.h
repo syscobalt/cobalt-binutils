@@ -17,9 +17,9 @@
    Software Foundation, 51 Franklin Street - Fifth Floor, Boston, MA
    02110-1301, USA.  */
 
-/* Target environment for Dennix. */
+/* Target environment for Cobalt. */
 
-#define TE_Dennix 1
+#define TE_Cobalt 1
 
 #define LOCAL_LABELS_DOLLAR 1
 #define LOCAL_LABELS_FB 1

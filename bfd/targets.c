@@ -732,7 +732,7 @@ extern const bfd_target i386_coff_go32_vec;
 extern const bfd_target i386_coff_go32stubbed_vec;
 extern const bfd_target i386_coff_lynx_vec;
 extern const bfd_target i386_elf32_vec;
-extern const bfd_target i386_elf32_dennix_vec;
+extern const bfd_target i386_elf32_cobalt_vec;
 extern const bfd_target i386_elf32_fbsd_vec;
 extern const bfd_target i386_elf32_nacl_vec;
 extern const bfd_target i386_elf32_sol2_vec;
@@ -919,7 +919,7 @@ extern const bfd_target x86_64_elf32_vec;
 extern const bfd_target x86_64_elf32_nacl_vec;
 extern const bfd_target x86_64_elf64_vec;
 extern const bfd_target x86_64_elf64_cloudabi_vec;
-extern const bfd_target x86_64_elf64_dennix_vec;
+extern const bfd_target x86_64_elf64_cobalt_vec;
 extern const bfd_target x86_64_elf64_fbsd_vec;
 extern const bfd_target x86_64_elf64_nacl_vec;
 extern const bfd_target x86_64_elf64_sol2_vec;
@@ -1083,7 +1083,7 @@ static const bfd_target * const _bfd_target_vector[] =
 	&i386_coff_go32stubbed_vec,
 	&i386_coff_lynx_vec,
 	&i386_elf32_vec,
-	&i386_elf32_dennix_vec,
+	&i386_elf32_cobalt_vec,
 	&i386_elf32_fbsd_vec,
 	&i386_elf32_nacl_vec,
 	&i386_elf32_sol2_vec,
@@ -1338,7 +1338,7 @@ static const bfd_target * const _bfd_target_vector[] =
 	&x86_64_elf32_nacl_vec,
 	&x86_64_elf64_vec,
 	&x86_64_elf64_cloudabi_vec,
-	&x86_64_elf64_dennix_vec,
+	&x86_64_elf64_cobalt_vec,
 	&x86_64_elf64_fbsd_vec,
 	&x86_64_elf64_nacl_vec,
 	&x86_64_elf64_sol2_vec,

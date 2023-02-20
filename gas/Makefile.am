@@ -315,7 +315,7 @@ TARG_ENV_HFILES = \
 	config/te-csky_abiv1_linux.h \
 	config/te-csky_abiv2.h \
 	config/te-csky_abiv2_linux.h \
-	config/te-dennix.h \
+	config/te-cobalt.h \
 	config/te-freebsd.h \
 	config/te-generic.h \
 	config/te-gnu.h \

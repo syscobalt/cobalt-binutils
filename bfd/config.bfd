@@ -585,10 +585,10 @@ case "${targ}" in
     targ_defvec=i386_elf32_vec
     targ_selvecs=iamcu_elf32_vec
     ;;
-  i[3-7]86-*-dennix*)
-    targ_defvec=i386_elf32_dennix_vec
+  i[3-7]86-*-cobalt*)
+    targ_defvec=i386_elf32_cobalt_vec
     targ_selvecs=i386_elf32_vec
-    targ64_selvecs="x86_64_elf64_dennix_vec x86_64_elf64_vec"
+    targ64_selvecs="x86_64_elf64_cobalt_vec x86_64_elf64_vec"
     ;;
   i[3-7]86-*-dicos*)
     targ_defvec=i386_elf32_vec
@@ -664,9 +664,9 @@ case "${targ}" in
     targ_archs="$targ_archs bfd_powerpc_arch bfd_rs6000_arch"
     want64=true
     ;;
-  x86_64-*-dennix*)
-    targ_defvec=x86_64_elf64_dennix_vec
-    targ_selvecs="x86_64_elf64_vec i386_elf32_dennix_vec i386_elf32_vec"
+  x86_64-*-cobalt*)
+    targ_defvec=x86_64_elf64_cobalt_vec
+    targ_selvecs="x86_64_elf64_vec i386_elf32_cobalt_vec i386_elf32_vec"
     want64=true
     ;;
   x86_64-*-dicos*)

@@ -4387,14 +4387,14 @@ elf_i386_link_setup_gnu_properties (struct bfd_link_info *info)
 
 #include "elf32-target.h"
 
-/* Dennix support.  */
+/* Cobalt support.  */
 #undef	TARGET_LITTLE_SYM
-#define	TARGET_LITTLE_SYM		i386_elf32_dennix_vec
+#define	TARGET_LITTLE_SYM		i386_elf32_cobalt_vec
 #undef	TARGET_LITTLE_NAME
-#define	TARGET_LITTLE_NAME		"elf32-i386-dennix"
+#define	TARGET_LITTLE_NAME		"elf32-i386-cobalt"
 #undef	ELF_OSABI
 #undef	elf32_bed
-#define	elf32_bed			elf32_i386_dennix_bed
+#define	elf32_bed			elf32_i386_cobalt_bed
 
 #include "elf32-target.h"
 

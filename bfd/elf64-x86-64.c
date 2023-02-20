@@ -5199,19 +5199,19 @@ elf_x86_64_special_sections[]=
 
 #include "elf64-target.h"
 
-/* Dennix support.  */
+/* Cobalt support.  */
 
 #undef  TARGET_LITTLE_SYM
-#define TARGET_LITTLE_SYM		    x86_64_elf64_dennix_vec
+#define TARGET_LITTLE_SYM		    x86_64_elf64_cobalt_vec
 #undef  TARGET_LITTLE_NAME
-#define TARGET_LITTLE_NAME		    "elf64-x86-64-dennix"
+#define TARGET_LITTLE_NAME		    "elf64-x86-64-cobalt"
 
 #undef  ELF_OSABI
 #undef  ELF_MAXPAGESIZE
 #define ELF_MAXPAGESIZE			0x1000
 
 #undef  elf64_bed
-#define elf64_bed elf64_x86_64_dennix_bed
+#define elf64_bed elf64_x86_64_cobalt_bed
 
 #include "elf64-target.h"
 

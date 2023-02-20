@@ -361,14 +361,14 @@ i[3-7]86-*-elf* | i[3-7]86-*-rtems*)
 			targ_emul=elf_i386
 			targ_extra_emuls=elf_iamcu
 			;;
-i[3-7]86-*-dennix*)
-			targ_emul=elf_i386_dennix
+i[3-7]86-*-cobalt*)
+			targ_emul=elf_i386_cobalt
 			targ_extra_emuls=elf_i386
-			targ64_extra_emuls="elf_x86_64_dennix elf_x86_64"
+			targ64_extra_emuls="elf_x86_64_cobalt elf_x86_64"
 			;;
-x86_64-*-dennix*)
-			targ_emul=elf_x86_64_dennix
-			targ_extra_emuls="elf_i386_dennix elf_x86_64 elf_i386"
+x86_64-*-cobalt*)
+			targ_emul=elf_x86_64_cobalt
+			targ_extra_emuls="elf_i386_cobalt elf_x86_64 elf_i386"
 			;;
 i[3-7]86-*-dragonfly*)	targ_emul=elf_i386
 			targ_extra_emuls="elf_iamcu i386bsd"
@@ -1044,7 +1044,7 @@ esac
 NATIVE_LIB_DIRS='/usr/local/lib /lib /usr/lib'
 case "${target}" in
 
-*-*-dennix*)
+*-*-cobalt*)
   NATIVE_LIB_DIRS='/local/lib /lib'
   ;;
 
